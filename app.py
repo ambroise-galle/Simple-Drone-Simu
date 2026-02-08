@@ -144,7 +144,6 @@ st.write("Position X:", round(st.session_state.drone_pos_x, 2))
 placeholder = st.empty()
 
 if st.session_state.running:
-    for _ in range(50):  # runs a short burst each refresh
         update(0.05)
 
 # Draw frame
